@@ -1,2 +1,2 @@
-# <img src="./Snuti.png" />
-Reactive Streams in Javascript
+### <img src="./Snuti.png" />
+### Reactive Streams in Javascript
