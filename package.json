@@ -1,0 +1,19 @@
+{
+  "name": "snuti",
+  "version": "1.0.0",
+  "description": "Reactive Streams in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archanpatkar/Snuti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archanpatkar/Snuti/issues"
+  },
+  "homepage": "https://github.com/archanpatkar/Snuti#readme"
+}
