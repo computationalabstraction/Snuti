@@ -221,7 +221,7 @@ const of = (...vals) => new Observable((observer) => {
 })
 
 const range = (start=0,count=undefined,scheduler) => new Observable((observer) => {
-    count? Array(count).fill(0).forEach((v,i) => observer.next(v+start+i)):0
+    count? Array(count).fill(0).forEach((v,i) => observer.next(start+i)):0
     observer.complete()
 })
 
