@@ -215,16 +215,30 @@ class BehaviorSubject extends Subject {
     }
 }
 
-console.log("Before");
-let o1 = new Observable((observer) => {
-    for (let i = 0; i < 10; i++) {
-        setTimeout(() => observer.next(i), i * 100);
-    }
-    setTimeout(() => observer.complete(), 1000);
-}).notifyThrough(new AsyncScheduler());
+const of = (...vals) => new Observable((observer) => {
+    vals.forEach(v => observer.next(v))
+    observer.complete()
+})
 
-o1.pipe(map(v => v + 5)).subscribe({
-    next: (v) => console.log(v),
-    complete: () => console.log("Stream Ends!")
-});
-console.log("After");
+const range = (start=0,count=undefined,scheduler) => new Observable((observer) => {
+    count? Array(count).fill(0).forEach((v,i) => observer.next(v+start+i)):0
+    observer.complete()
+})
+
+const empty = () => new Observable((observer) => observer.complete())
+
+const interval = (period,scheduler) => new Observable((observer) => {
+    let count = 0;
+    setInterval(() => observer.next(count++),period)
+})
+
+const timer = (dueTime,period,scheduler) => new Observable((observer) => {
+    let count = 0;
+    if(period) setInterval(()=>setInterval(() => observer.next(count++),period),dueTime)
+    else setInterval(() => observer.next(count++),dueTime)
+})
+
+const iff = (cond,ob1,ob2) => new Observable((observer) => {
+    if(cond()) ob1.subscribe(observer.next,observer.error,observer.complete)
+    else ob2.subscribe(observer.next,observer.error,observer.complete)
+})
