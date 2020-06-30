@@ -1,4 +1,6 @@
-### <img src="./Snuti.png" />
+<!-- ### <img src="./Snuti.png" /> -->
+### <img src="./snutiexpression.png" />
+
 ## Functional Reactive Programming library in Javascript
 
 <a href="https://promisesaplus.com/">
