@@ -1,6 +1,7 @@
 <!-- ### <img src="./Snuti.png" /> -->
 <div align="center">
 <img src="./snuti2.svg" height="70em" width="140em"/>
+<br>
 <img src="./snutiexpression.png" />
 </div>
 
