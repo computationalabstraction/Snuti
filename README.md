@@ -10,6 +10,8 @@
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
+<br>
+
 Snuti is a fast comprehensive FRP library inspired by RxJS, Bacon.js and most.js. It is conforming to the ES Observable proposal, Promise/A+ spec, Fantasy Land and Static Land. It is crossplatform, lightweight with no dependancies and reliable.
 
 ### `Example Usage`
