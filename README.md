@@ -1,8 +1,8 @@
 <!-- ### <img src="./Snuti.png" /> -->
 <div align="center">
-<img src="./static/Snuti.svg" height="70em" width="140em"/>
-<br>
 <img src="./static/expression.png" />
+<br>
+<img src="./static/Snuti.svg" height="70em" width="140em"/>
 </div>
 
 ## Functional Reactive Programming library in Javascript
