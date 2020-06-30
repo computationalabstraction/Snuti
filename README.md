@@ -1,6 +1,6 @@
 <!-- ### <img src="./Snuti.png" /> -->
 ### <img src="./snutiexpression.png" />
-<img src="./snuti2.svg" height="2em" width="5em"/>
+<img src="./snuti2.svg" height="20em" width="50em"/>
 
 
 ## Functional Reactive Programming library in Javascript
