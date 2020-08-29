@@ -5,7 +5,7 @@
 <img src="./static/Snuti.svg" height="70em" width="140em"/>
 </div>
 
-## Functional Reactive Programming library in Javascript
+## Reactive Programming library in Javascript
 
 <a href="https://promisesaplus.com/">
     <img src="https://promisesaplus.com/assets/logo-small.png" width="82" height="82" alt="Promises/A+ logo"
@@ -18,7 +18,7 @@
 
 <br>
 
-Snuti is a fast comprehensive FRP library inspired by RxJS, Bacon.js and most.js. It is conforming to the ES Observable proposal, Promise/A+ spec, Fantasy Land and Static Land. It is crossplatform, lightweight with no dependancies and reliable.
+Snuti is a fast comprehensive reactive programming library inspired by RxJS, Bacon.js and most.js. It is conforming to the ES Observable proposal, Promise/A+ spec, Fantasy Land and Static Land. It is crossplatform, lightweight with no dependancies and reliable.
 
 ### `Example Usage`
 
