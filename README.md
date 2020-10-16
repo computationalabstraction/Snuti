@@ -5,7 +5,7 @@
 <img src="./static/Snuti.svg" height="70em" width="140em"/>
 </div>
 
-## Reactive Programming library in Javascript
+## Reactive Programming library in Javascript (WIP)
 
 <a href="https://promisesaplus.com/">
     <img src="https://promisesaplus.com/assets/logo-small.png" width="82" height="82" alt="Promises/A+ logo"
