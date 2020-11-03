@@ -39,7 +39,7 @@ o1.pipe(map(v => v + 5)).subscribe({
 ```
 
 ## Installation
-
+> Currently not hosted (This section is placeholder, will be hosted soon)
 ### Node
 ```
 npm i snuti
