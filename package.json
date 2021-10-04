@@ -19,6 +19,6 @@
   "homepage": "https://github.com/archanpatkar/Snuti#readme",
   "devDependencies": {
     "jest": "^27.0.6",
-    "standard": "^16.0.3"
+    "standard": "^16.0.4"
   }
 }
